@@ -129,7 +129,7 @@ interface TestProject<TestArgs = {}, WorkerArgs = {}> {
    *   projects: [
    *     {
    *       name: 'setup',
-   *       testMatch: /global.setup\.ts/,
+   *       testMatch: /global\.setup\.ts/,
    *     },
    *     {
    *       name: 'chromium',
@@ -507,12 +507,12 @@ interface TestProject<TestArgs = {}, WorkerArgs = {}> {
    *   projects: [
    *     {
    *       name: 'setup',
-   *       testMatch: /global.setup\.ts/,
+   *       testMatch: /global\.setup\.ts/,
    *       teardown: 'teardown',
    *     },
    *     {
    *       name: 'teardown',
-   *       testMatch: /global.teardown\.ts/,
+   *       testMatch: /global\.teardown\.ts/,
    *     },
    *     {
    *       name: 'chromium',
